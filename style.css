@@ -8,6 +8,7 @@ body{
     background-color: var(--primary-color);
     background-image: url("https://st2.depositphotos.com/7752738/10773/v/950/depositphotos_107738110-stock-illustration-falling-coins-money-vector-illustration.jpg");
     color: var(--secondary-color);
+    margin: 0;
 }
 
 .container{
@@ -59,4 +60,37 @@ table, th, td {
     font-size: 1.3rem;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-radius: 10rem;
+}
+
+.footer .link {
+    color: var(--secondary-color);
+    /* text-decoration: none; */
+}
+
+.footer .footer-header {
+    font-weight: bold;
+}
+
+.non-bullet-list {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+}
+
+.footer-img{
+    height:2rem;
+    width: 2rem;
+    padding: 0rem 0.5rem;
 }
