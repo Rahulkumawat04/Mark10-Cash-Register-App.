@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="headding"> Cash Register App</h1>
+        <h1> Cash Register App</h1>
         <p class="description">Enter the Bill amount and cash given by customer and know the minimum number of notes to return.</p>
 
         <!-- label is good for accessibility. its better for screen-reader. 'for=""' is conecting to the input. -->
@@ -27,6 +27,7 @@
         
         <button id="check-button">Check</button>
 
+        <h3 id="returnAmount"></h3>
 
 
         <p id="error-message"></p>
@@ -35,8 +36,8 @@
         <table class="change-table">
 
             <!-- caption is a semanticaclly good thing to do. -->
-            <caption>Return Change:</caption>
-            <tr>
+            <caption id="caption">Return Change:</caption>
+            <tr id="row1"> 
                 <th>No. of notes</th>
                 <td class="no-of-notes"></td> 
                 <td class="no-of-notes"></td> 
@@ -45,16 +46,21 @@
                 <td class="no-of-notes"></td> 
                 <td class="no-of-notes"></td> 
                 <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
             </tr>
+            <hr>
             <tr>
                 <th>Notes</th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>1</td>
+                <td class="notes-given">₹2000</td>
+                <td class="notes-given">₹500</td>
+                <td class="notes-given">₹200</td>
+                <td class="notes-given">₹100</td>
+                <td class="notes-given">₹50</td>
+                <td class="notes-given">₹20</td>
+                <td class="notes-given">₹10</td>
+                <td class="notes-given">₹5</td>
+                <td class="notes-given">₹1</td>
             </tr>
         </table>
     </div>
